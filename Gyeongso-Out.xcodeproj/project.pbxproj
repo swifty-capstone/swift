@@ -6,17 +6,50 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		80031D942EC232D7005504D2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80031D932EC232D7005504D2 /* HomeView.swift */; };
+		801E9C162EC4281E0072FB3E /* NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E9C152EC4281E0072FB3E /* NavigationButton.swift */; };
+		801E9C182EC435810072FB3E /* View+AppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E9C172EC435810072FB3E /* View+AppBackground.swift */; };
+		801E9C1B2EC44BE40072FB3E /* NotificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E9C1A2EC44BE40072FB3E /* NotificationListView.swift */; };
+		801E9C1D2EC44D160072FB3E /* MyPassCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E9C1C2EC44D160072FB3E /* MyPassCardView.swift */; };
+		804CA3622EC2B7D600B85A23 /* PassCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804CA3612EC2B7D600B85A23 /* PassCardListView.swift */; };
+		808A71C22EB221F90054D4F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808A71BE2EB221F90054D4F6 /* Assets.xcassets */; };
+		808A71C32EB221F90054D4F6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808A71BC2EB221F90054D4F6 /* LoginView.swift */; };
+		808A71C42EB221F90054D4F6 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808A71BF2EB221F90054D4F6 /* RootView.swift */; };
+		808A71C52EB221F90054D4F6 /* Gyeongso_OutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808A71C02EB221F90054D4F6 /* Gyeongso_OutApp.swift */; };
+		808A71CE2EB227490054D4F6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808A71CD2EB227490054D4F6 /* MainView.swift */; };
+		80EB78FF2EC333B000369EFB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EB78FE2EC333B000369EFB /* ProfileView.swift */; };
+		80EB79032EC3343E00369EFB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EB79022EC3343E00369EFB /* HomeViewModel.swift */; };
+		80EB79052EC3346D00369EFB /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EB79042EC3346D00369EFB /* LoginViewModel.swift */; };
+		80EB79072EC349D700369EFB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EB79062EC349D700369EFB /* User.swift */; };
+		80EB79092EC34E0900369EFB /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EB79082EC34E0900369EFB /* LoginService.swift */; };
+		80EB790C2EC34F8E00369EFB /* LoginRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EB790B2EC34F8E00369EFB /* LoginRequestDTO.swift */; };
+		80EB790E2EC34FE700369EFB /* LoginResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EB790D2EC34FE700369EFB /* LoginResponseDTO.swift */; };
+		80EB79102EC39F2300369EFB /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EB790F2EC39F2300369EFB /* MainTabView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		33C215D22EB1F3B000624C68 /* Gyeongso-Out.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gyeongso-Out.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80031D932EC232D7005504D2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		801E9C152EC4281E0072FB3E /* NavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButton.swift; sourceTree = "<group>"; };
+		801E9C172EC435810072FB3E /* View+AppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+AppBackground.swift"; sourceTree = "<group>"; };
+		801E9C1A2EC44BE40072FB3E /* NotificationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationListView.swift; sourceTree = "<group>"; };
+		801E9C1C2EC44D160072FB3E /* MyPassCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPassCardView.swift; sourceTree = "<group>"; };
+		804CA3612EC2B7D600B85A23 /* PassCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassCardListView.swift; sourceTree = "<group>"; };
+		808A71BC2EB221F90054D4F6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		808A71BE2EB221F90054D4F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		808A71BF2EB221F90054D4F6 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		808A71C02EB221F90054D4F6 /* Gyeongso_OutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gyeongso_OutApp.swift; sourceTree = "<group>"; };
+		808A71CD2EB227490054D4F6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		80EB78FE2EC333B000369EFB /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		80EB79022EC3343E00369EFB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		80EB79042EC3346D00369EFB /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		80EB79062EC349D700369EFB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		80EB79082EC34E0900369EFB /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		80EB790B2EC34F8E00369EFB /* LoginRequestDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestDTO.swift; sourceTree = "<group>"; };
+		80EB790D2EC34FE700369EFB /* LoginResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseDTO.swift; sourceTree = "<group>"; };
+		80EB790F2EC39F2300369EFB /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		33C215D42EB1F3B000624C68 /* Gyeongso-Out */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Gyeongso-Out";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		33C215CF2EB1F3B000624C68 /* Frameworks */ = {
@@ -32,7 +65,7 @@
 		33C215C92EB1F3B000624C68 = {
 			isa = PBXGroup;
 			children = (
-				33C215D42EB1F3B000624C68 /* Gyeongso-Out */,
+				808A71C12EB221F90054D4F6 /* Gyeongso-Out */,
 				33C215D32EB1F3B000624C68 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +76,112 @@
 				33C215D22EB1F3B000624C68 /* Gyeongso-Out.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		80031D952EC23328005504D2 /* PassCardList */ = {
+			isa = PBXGroup;
+			children = (
+				804CA3612EC2B7D600B85A23 /* PassCardListView.swift */,
+			);
+			path = PassCardList;
+			sourceTree = "<group>";
+		};
+		801E9C192EC44B7A0072FB3E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				80031D932EC232D7005504D2 /* HomeView.swift */,
+				801E9C1A2EC44BE40072FB3E /* NotificationListView.swift */,
+				801E9C1C2EC44D160072FB3E /* MyPassCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		801E9C1E2EC460070072FB3E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		808A71C12EB221F90054D4F6 /* Gyeongso-Out */ = {
+			isa = PBXGroup;
+			children = (
+				808A71C72EB2241E0054D4F6 /* App */,
+				808A71C82EB224220054D4F6 /* Features */,
+				808A71BE2EB221F90054D4F6 /* Assets.xcassets */,
+			);
+			path = "Gyeongso-Out";
+			sourceTree = "<group>";
+		};
+		808A71C72EB2241E0054D4F6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				808A71BF2EB221F90054D4F6 /* RootView.swift */,
+				808A71C02EB221F90054D4F6 /* Gyeongso_OutApp.swift */,
+				801E9C172EC435810072FB3E /* View+AppBackground.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		808A71C82EB224220054D4F6 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				80EB790F2EC39F2300369EFB /* MainTabView.swift */,
+				808A71CD2EB227490054D4F6 /* MainView.swift */,
+				808A71CB2EB226930054D4F6 /* Login */,
+				808A71CA2EB226870054D4F6 /* Home */,
+				80031D952EC23328005504D2 /* PassCardList */,
+				808A71D32EB22A540054D4F6 /* Profile */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		808A71CA2EB226870054D4F6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				801E9C192EC44B7A0072FB3E /* Views */,
+				80EB79022EC3343E00369EFB /* HomeViewModel.swift */,
+				808A71CC2EB2273F0054D4F6 /* Components */,
+				801E9C1E2EC460070072FB3E /* Models */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		808A71CB2EB226930054D4F6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				808A71BC2EB221F90054D4F6 /* LoginView.swift */,
+				80EB79042EC3346D00369EFB /* LoginViewModel.swift */,
+				80EB79062EC349D700369EFB /* User.swift */,
+				80EB79082EC34E0900369EFB /* LoginService.swift */,
+				80EB790A2EC34F7300369EFB /* DTO */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		808A71CC2EB2273F0054D4F6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				801E9C152EC4281E0072FB3E /* NavigationButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		808A71D32EB22A540054D4F6 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				80EB78FE2EC333B000369EFB /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		80EB790A2EC34F7300369EFB /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				80EB790B2EC34F8E00369EFB /* LoginRequestDTO.swift */,
+				80EB790D2EC34FE700369EFB /* LoginResponseDTO.swift */,
+			);
+			path = DTO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +198,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				33C215D42EB1F3B000624C68 /* Gyeongso-Out */,
 			);
 			name = "Gyeongso-Out";
 			packageProductDependencies = (
@@ -109,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808A71C22EB221F90054D4F6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +256,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808A71C32EB221F90054D4F6 /* LoginView.swift in Sources */,
+				808A71CE2EB227490054D4F6 /* MainView.swift in Sources */,
+				808A71C42EB221F90054D4F6 /* RootView.swift in Sources */,
+				80EB79032EC3343E00369EFB /* HomeViewModel.swift in Sources */,
+				804CA3622EC2B7D600B85A23 /* PassCardListView.swift in Sources */,
+				80031D942EC232D7005504D2 /* HomeView.swift in Sources */,
+				801E9C1B2EC44BE40072FB3E /* NotificationListView.swift in Sources */,
+				80EB78FF2EC333B000369EFB /* ProfileView.swift in Sources */,
+				808A71C52EB221F90054D4F6 /* Gyeongso_OutApp.swift in Sources */,
+				801E9C1D2EC44D160072FB3E /* MyPassCardView.swift in Sources */,
+				801E9C162EC4281E0072FB3E /* NavigationButton.swift in Sources */,
+				80EB79092EC34E0900369EFB /* LoginService.swift in Sources */,
+				801E9C182EC435810072FB3E /* View+AppBackground.swift in Sources */,
+				80EB790C2EC34F8E00369EFB /* LoginRequestDTO.swift in Sources */,
+				80EB79072EC349D700369EFB /* User.swift in Sources */,
+				80EB79102EC39F2300369EFB /* MainTabView.swift in Sources */,
+				80EB790E2EC34FE700369EFB /* LoginResponseDTO.swift in Sources */,
+				80EB79052EC3346D00369EFB /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +408,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V5SY9RUBB4;
+				DEVELOPMENT_TEAM = T8453KH9LA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -285,7 +440,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V5SY9RUBB4;
+				DEVELOPMENT_TEAM = T8453KH9LA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
