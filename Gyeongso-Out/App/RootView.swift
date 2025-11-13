@@ -10,7 +10,7 @@ struct RootView: View {
       LoginView()
     }
   }
-}
+} 
 
 #Preview {
   RootView()

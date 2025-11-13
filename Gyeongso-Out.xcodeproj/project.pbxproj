@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		80031D942EC232D7005504D2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80031D932EC232D7005504D2 /* HomeView.swift */; };
+		801217A92EC4A2F300CEDA44 /* PassCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801217A82EC4A2F300CEDA44 /* PassCardView.swift */; };
 		801E9C162EC4281E0072FB3E /* NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E9C152EC4281E0072FB3E /* NavigationButton.swift */; };
 		801E9C182EC435810072FB3E /* View+AppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E9C172EC435810072FB3E /* View+AppBackground.swift */; };
 		801E9C1B2EC44BE40072FB3E /* NotificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E9C1A2EC44BE40072FB3E /* NotificationListView.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		33C215D22EB1F3B000624C68 /* Gyeongso-Out.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gyeongso-Out.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80031D932EC232D7005504D2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		801217A82EC4A2F300CEDA44 /* PassCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassCardView.swift; sourceTree = "<group>"; };
 		801E9C152EC4281E0072FB3E /* NavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButton.swift; sourceTree = "<group>"; };
 		801E9C172EC435810072FB3E /* View+AppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+AppBackground.swift"; sourceTree = "<group>"; };
 		801E9C1A2EC44BE40072FB3E /* NotificationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationListView.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				804CA3612EC2B7D600B85A23 /* PassCardListView.swift */,
+				801217A82EC4A2F300CEDA44 /* PassCardView.swift */,
 			);
 			path = PassCardList;
 			sourceTree = "<group>";
@@ -106,9 +109,9 @@
 		808A71C12EB221F90054D4F6 /* Gyeongso-Out */ = {
 			isa = PBXGroup;
 			children = (
+				808A71BE2EB221F90054D4F6 /* Assets.xcassets */,
 				808A71C72EB2241E0054D4F6 /* App */,
 				808A71C82EB224220054D4F6 /* Features */,
-				808A71BE2EB221F90054D4F6 /* Assets.xcassets */,
 			);
 			path = "Gyeongso-Out";
 			sourceTree = "<group>";
@@ -214,7 +217,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2600;
-				LastUpgradeCheck = 2600;
+				LastUpgradeCheck = 2610;
 				TargetAttributes = {
 					33C215D12EB1F3B000624C68 = {
 						CreatedOnToolsVersion = 26.0.1;
@@ -272,6 +275,7 @@
 				80EB790C2EC34F8E00369EFB /* LoginRequestDTO.swift in Sources */,
 				80EB79072EC349D700369EFB /* User.swift in Sources */,
 				80EB79102EC39F2300369EFB /* MainTabView.swift in Sources */,
+				801217A92EC4A2F300CEDA44 /* PassCardView.swift in Sources */,
 				80EB790E2EC34FE700369EFB /* LoginResponseDTO.swift in Sources */,
 				80EB79052EC3346D00369EFB /* LoginViewModel.swift in Sources */,
 			);
@@ -339,6 +343,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -396,6 +401,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};

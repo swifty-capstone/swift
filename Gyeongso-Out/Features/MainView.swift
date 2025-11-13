@@ -32,7 +32,6 @@ struct MainView: View {
         .fontWeight(.semibold)
         Spacer()
         
-        
         if selectedTab == .home {
           ScrollView {
             HomeView()

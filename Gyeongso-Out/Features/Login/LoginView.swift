@@ -9,8 +9,7 @@ struct LoginView: View {
     VStack(alignment: .center) {
       VStack(alignment: .leading, spacing: 6) {
         VStack(alignment: .leading, spacing: 20) {
-          Image(systemName: "globe")
-            .foregroundStyle(.appPrimary)
+          Image(.appLogo)
             .font(.system(size: 55))
           Text("경북소프트웨어마이스터고등학교\n외출증 관리 서비스")
             .font(.title2)
