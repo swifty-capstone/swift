@@ -4,7 +4,7 @@ import SwiftUI
 
 struct HomeView: View {
   var body: some View {
-    VStack(spacing: 20) {
+    VStack(spacing: 16) {
       MyPassCardView()
       HStack {
         NavigationButton(icon: "calendar", subtitle: "목록부터", title: "외출 일정 보기")
@@ -13,8 +13,4 @@ struct HomeView: View {
     }
     .padding(.horizontal, 16)
   }
-}
-
-#Preview {
-  HomeView()
 }

@@ -20,7 +20,9 @@ struct MyPassCardView: View {
 //        if passCardContent = passCard {
 //          passCardContent()
 //        } else {
-//          Text("승인된 외출증이 없습니다.")
+          Text("승인된 외출증이 없습니다.")
+          .font(.system(size: 14))
+          .foregroundStyle(.gray)
 //        }
       }
       .frame(maxWidth: .infinity, minHeight: 120, maxHeight: .infinity)

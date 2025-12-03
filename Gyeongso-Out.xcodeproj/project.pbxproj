@@ -10,9 +10,11 @@
 		80031D942EC232D7005504D2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80031D932EC232D7005504D2 /* HomeView.swift */; };
 		801217A92EC4A2F300CEDA44 /* PassCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801217A82EC4A2F300CEDA44 /* PassCardView.swift */; };
 		801E9C162EC4281E0072FB3E /* NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E9C152EC4281E0072FB3E /* NavigationButton.swift */; };
-		801E9C182EC435810072FB3E /* View+AppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E9C172EC435810072FB3E /* View+AppBackground.swift */; };
+		801E9C182EC435810072FB3E /* AppBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E9C172EC435810072FB3E /* AppBackgroundView.swift */; };
 		801E9C1B2EC44BE40072FB3E /* NotificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E9C1A2EC44BE40072FB3E /* NotificationListView.swift */; };
 		801E9C1D2EC44D160072FB3E /* MyPassCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E9C1C2EC44D160072FB3E /* MyPassCardView.swift */; };
+		802043DA2EDECC6F005BE3FE /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802043D92EDECC6F005BE3FE /* UserData.swift */; };
+		802043DC2EDEE038005BE3FE /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802043DB2EDEE038005BE3FE /* LoginService.swift */; };
 		804CA3622EC2B7D600B85A23 /* PassCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804CA3612EC2B7D600B85A23 /* PassCardListView.swift */; };
 		808A71C22EB221F90054D4F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808A71BE2EB221F90054D4F6 /* Assets.xcassets */; };
 		808A71C32EB221F90054D4F6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808A71BC2EB221F90054D4F6 /* LoginView.swift */; };
@@ -23,9 +25,8 @@
 		80EB79032EC3343E00369EFB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EB79022EC3343E00369EFB /* HomeViewModel.swift */; };
 		80EB79052EC3346D00369EFB /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EB79042EC3346D00369EFB /* LoginViewModel.swift */; };
 		80EB79072EC349D700369EFB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EB79062EC349D700369EFB /* User.swift */; };
-		80EB79092EC34E0900369EFB /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EB79082EC34E0900369EFB /* LoginService.swift */; };
-		80EB790C2EC34F8E00369EFB /* LoginRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EB790B2EC34F8E00369EFB /* LoginRequestDTO.swift */; };
-		80EB790E2EC34FE700369EFB /* LoginResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EB790D2EC34FE700369EFB /* LoginResponseDTO.swift */; };
+		80EB790C2EC34F8E00369EFB /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EB790B2EC34F8E00369EFB /* LoginRequest.swift */; };
+		80EB790E2EC34FE700369EFB /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EB790D2EC34FE700369EFB /* LoginResponse.swift */; };
 		80EB79102EC39F2300369EFB /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EB790F2EC39F2300369EFB /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,9 +35,11 @@
 		80031D932EC232D7005504D2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		801217A82EC4A2F300CEDA44 /* PassCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassCardView.swift; sourceTree = "<group>"; };
 		801E9C152EC4281E0072FB3E /* NavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButton.swift; sourceTree = "<group>"; };
-		801E9C172EC435810072FB3E /* View+AppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+AppBackground.swift"; sourceTree = "<group>"; };
+		801E9C172EC435810072FB3E /* AppBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackgroundView.swift; sourceTree = "<group>"; };
 		801E9C1A2EC44BE40072FB3E /* NotificationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationListView.swift; sourceTree = "<group>"; };
 		801E9C1C2EC44D160072FB3E /* MyPassCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPassCardView.swift; sourceTree = "<group>"; };
+		802043D92EDECC6F005BE3FE /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		802043DB2EDEE038005BE3FE /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		804CA3612EC2B7D600B85A23 /* PassCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassCardListView.swift; sourceTree = "<group>"; };
 		808A71BC2EB221F90054D4F6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		808A71BE2EB221F90054D4F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,9 +50,8 @@
 		80EB79022EC3343E00369EFB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		80EB79042EC3346D00369EFB /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		80EB79062EC349D700369EFB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		80EB79082EC34E0900369EFB /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
-		80EB790B2EC34F8E00369EFB /* LoginRequestDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestDTO.swift; sourceTree = "<group>"; };
-		80EB790D2EC34FE700369EFB /* LoginResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseDTO.swift; sourceTree = "<group>"; };
+		80EB790B2EC34F8E00369EFB /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		80EB790D2EC34FE700369EFB /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		80EB790F2EC39F2300369EFB /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 				808A71BE2EB221F90054D4F6 /* Assets.xcassets */,
 				808A71C72EB2241E0054D4F6 /* App */,
 				808A71C82EB224220054D4F6 /* Features */,
+				80FAB2712ED6F51A00502DD9 /* Service */,
 			);
 			path = "Gyeongso-Out";
 			sourceTree = "<group>";
@@ -121,7 +124,7 @@
 			children = (
 				808A71BF2EB221F90054D4F6 /* RootView.swift */,
 				808A71C02EB221F90054D4F6 /* Gyeongso_OutApp.swift */,
-				801E9C172EC435810072FB3E /* View+AppBackground.swift */,
+				801E9C172EC435810072FB3E /* AppBackgroundView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -156,7 +159,6 @@
 				808A71BC2EB221F90054D4F6 /* LoginView.swift */,
 				80EB79042EC3346D00369EFB /* LoginViewModel.swift */,
 				80EB79062EC349D700369EFB /* User.swift */,
-				80EB79082EC34E0900369EFB /* LoginService.swift */,
 				80EB790A2EC34F7300369EFB /* DTO */,
 			);
 			path = Login;
@@ -181,10 +183,19 @@
 		80EB790A2EC34F7300369EFB /* DTO */ = {
 			isa = PBXGroup;
 			children = (
-				80EB790B2EC34F8E00369EFB /* LoginRequestDTO.swift */,
-				80EB790D2EC34FE700369EFB /* LoginResponseDTO.swift */,
+				80EB790B2EC34F8E00369EFB /* LoginRequest.swift */,
+				80EB790D2EC34FE700369EFB /* LoginResponse.swift */,
+				802043D92EDECC6F005BE3FE /* UserData.swift */,
 			);
 			path = DTO;
+			sourceTree = "<group>";
+		};
+		80FAB2712ED6F51A00502DD9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				802043DB2EDEE038005BE3FE /* LoginService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,13 +281,14 @@
 				808A71C52EB221F90054D4F6 /* Gyeongso_OutApp.swift in Sources */,
 				801E9C1D2EC44D160072FB3E /* MyPassCardView.swift in Sources */,
 				801E9C162EC4281E0072FB3E /* NavigationButton.swift in Sources */,
-				80EB79092EC34E0900369EFB /* LoginService.swift in Sources */,
-				801E9C182EC435810072FB3E /* View+AppBackground.swift in Sources */,
-				80EB790C2EC34F8E00369EFB /* LoginRequestDTO.swift in Sources */,
+				801E9C182EC435810072FB3E /* AppBackgroundView.swift in Sources */,
+				80EB790C2EC34F8E00369EFB /* LoginRequest.swift in Sources */,
+				802043DC2EDEE038005BE3FE /* LoginService.swift in Sources */,
 				80EB79072EC349D700369EFB /* User.swift in Sources */,
 				80EB79102EC39F2300369EFB /* MainTabView.swift in Sources */,
 				801217A92EC4A2F300CEDA44 /* PassCardView.swift in Sources */,
-				80EB790E2EC34FE700369EFB /* LoginResponseDTO.swift in Sources */,
+				80EB790E2EC34FE700369EFB /* LoginResponse.swift in Sources */,
+				802043DA2EDECC6F005BE3FE /* UserData.swift in Sources */,
 				80EB79052EC3346D00369EFB /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
